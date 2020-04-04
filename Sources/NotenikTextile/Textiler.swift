@@ -28,8 +28,12 @@ public class Textiler {
     
     var markedup = Markedup(format: .htmlFragment)
     
+    public init() {
+        
+    }
+    
     /// Convert some textile code to HTML.
-    func toHTML(textile: String) -> String {
+    public func toHTML(textile: String) -> String {
 
         markedup.startDoc(withTitle: nil, withCSS: nil)
  
