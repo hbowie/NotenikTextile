@@ -1,3 +1,3 @@
 # NotenikTextile
 
-A description of this package.
+This is a "good enough" textile parser used by Notenik.
