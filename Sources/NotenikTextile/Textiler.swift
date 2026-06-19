@@ -35,7 +35,7 @@ public class Textiler {
     /// Convert some textile code to HTML.
     public func toHTML(textile: String) -> String {
 
-        markedup.startDoc(withTitle: nil, withCSS: nil)
+        markedup.startDoc(headInfo: MarkedupHeadInfo())
  
         let reader = BigStringReader(textile)
         reader.open()
